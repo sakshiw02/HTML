@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Problem 5</title>
+</head>
+<body>
+    <p style="text-align: center;font-size: xx-large;" ><b>Registration Form</b></p>
+    <form >
+        <table border="2px" align="center" style="background-color: pink;" >
+            <tr>
+                <td><label for="uname">Name : </label></td>
+                <td><input type="name" name="uname" id="uname"  required  value="name" autofocus></td>
+            </tr>
+            <tr>
+                <td> <label for="code">Employee Code:</label> </td>
+                <td><input type="number" name="code" id="code"  value="emp code" required></td>  
+            </tr>
+            <tr>
+                <td><label for="dept">Department :</label></td>
+            <td><input type="radio" name="dept" id="dept">Admin<br/>
+                <input type="radio" name="dept" id="dept">HR <br/>
+                <input type="radio" name="dept" id="dept">Technical <br/> 
+                <input type="radio" name="dept" id="dept">Acoounts <br/>
+            </td>
+            </tr>
+            <tr>
+                <td><label for="doj">Date of Joining </label></td>
+                <td><input type="date" name="doj" id="doj" required min="2022-01-01"></td>
+            </tr>
+            <tr>
+                <td><label for="addr">Address</label></td>
+                <td><textarea name="addr" id="addr" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="prog">Training Programs Attended </label></td>
+                <td>
+                    <input type="checkbox" name="prog" id="prog">HTML/DHTML</input:checkbox><BR>                  
+                      <input type="checkbox" name="prog" id="prog">JAVA</input:checkbox><br>
+                        <input type="checkbox" name="prog" id="prog">CLIENT SERVER</input:checkbox><br>
+                        <input type="checkbox" name="prog" id="prog">.NET</input:checkbox>
+                </td>
+            </tr>
+            <tr>
+            <td>Training Programeers need to attend</td>
+            <td><select name="list" id="list" size="2" multiple>
+            
+                <option value="JavaScript">JavaScript</option>
+                <option value="JSTRUTS">JSTRUTS</option>
+            </select>
+            </td>
+            </tr>
+            <tr>
+                <td>Send Information at</td>
+                <td><a href="#">empinfo@patni.com</a></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
