@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: white;
+}
+fieldset{
+    border:5px solid rgb(48, 64, 204);
+    border-radius: 15px;
+    width:max-content ;
+    margin: 30px;
+}
+legend{
+    background-color: rgb(48, 64, 204);
+    border-radius: 3px;
+    color: white;
+}
+p:last-child{
+    background-color: rgb(48, 64, 204);
+    color: white;
+}
+#btn{
+    margin-left: 40px;
+    background-color: rgb(48, 64, 204);
+    color: white;    
+}
