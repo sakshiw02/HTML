@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem STatement 2</title>
+
+
+
+    <style>
+        div{
+            margin: 10%;
+            padding: 10%;
+            border-color:white;
+        }
+        fieldset{
+            height: auto;
+           width: max-content;
+            margin-left: 350px;
+           color:white;
+           border-color:2px solid white;
+
+        }
+    </style>
+</head>
+<body    bgcolor=" #007FFF">
+    
+    <fieldset >
+        <legend><h1>Registration Details</h1></legend>
+        <form method="post">
+            <div>
+                University: <input type="text" name="name" value="name " required><br><br>
+                Institute : <input type="txt" name="clg" id="clg" required><br><br>
+                Branch : <select name="select" id="select" >
+                    <option value="">-----select one------</option>
+                    <option value="BE">B.E</option>
+                    <option value="MTECH">MTECH</option>
+                    <option value="PHD">PHD</option>
+                </select>
+                <input type="radio" name="rd" id="rd"> Pursuing 
+                <input type="radio" name="rd" id="rd">Completed <br><br>
+
+                Average CPI: <input type="text" name="nb" id="nb"  required minlength="2"  maxlength="2" max="10" > Upto <input type="number" name="num" id="num" size="1"> <sup>th</sup> Semester <br><br>
+                Experience: <input type="number" name="exp" id="exp" size="2"> Years <br><br>
+                Your Wesite or Blog : <input type="url" name="url" id="url" placeholder="enter url">
+            </div>
+
+        </form>
+    </fieldset>
+</body>
+</html>
